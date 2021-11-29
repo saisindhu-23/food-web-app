@@ -59,5 +59,6 @@ export const HeroBtn = styled.button`
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #000;
+     
   }
 `;

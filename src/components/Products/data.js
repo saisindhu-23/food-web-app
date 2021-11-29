@@ -1,7 +1,7 @@
 import product1 from '../../images/product-1.jpg';
 import product2 from '../../images/product-2.jpg';
 import product3 from '../../images/product-3.jpg';
-import sweet1 from '../../images/sweet3.jpg';
+ 
 import sweet2 from '../../images/sweet-2.jpg';
 import sweet3 from '../../images/sweet-3.jpg';
 
@@ -9,58 +9,50 @@ export const productData = [
   {
     img: product1,
     alt: 'Pizza',
-    name: 'Supreme Pizza',
+    name: 'NorthIndian Restaurant',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$19.99',
-    button: 'Add to Cart'
+      'Delicious North Indian foods to taste',
+    price: 'Starts from Rs.149',
+    button: 'OPEN'
   },
   {
     img: product2,
     alt: 'Pizza',
-    name: 'Hawaiian Paradise',
+    name: 'South Indian Restaurant',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$16.99',
-    button: 'Add to Cart'
+      'Delicious South Indian foods to taste',
+    price: 'Starts from Rs.199',
+    button: 'OPEN'
   },
   {
     img: product3,
     alt: 'Pizza',
-    name: 'Veggie Overload',
+    name: 'Italian food Restaurants',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$14.99',
-    button: 'Add to Cart'
+      ' Delicious pastas and pizzas to taste...',
+    price: 'Starts from Rs.250',
+    button: 'OPEN'
   }
 ];
 
 export const productDataTwo = [
   {
     img: sweet2,
-    alt: 'Donuts',
-    name: 'Doughlicious',
+    alt: 'cafe',
+    name: 'Cafe chocolicious',
     desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
-    price: '$9.99',
-    button: 'Add to Cart'
+      'Explore this to choose your loving foods',
+    price: 'Starts from Rs.149',
+    button: 'OPEN'
   },
   {
     img: sweet3,
-    alt: 'Ice Cream',
-    name: 'Caramel Wonder',
+    alt: 'Fast foods',
+    name: 'Fast foods ',
     desc:
-      'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
-    price: '$12.99',
-    button: 'Add to Cart'
+      'Burger, Frenchfries and all the foods you love',
+    price: 'Starts from Rs.159',
+    button: 'OPEN'
   },
-  {
-    img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
-    desc:
-      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$9.99',
-    button: 'Add to Cart'
-  }
+  
 ];
